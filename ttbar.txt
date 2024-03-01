@@ -1,0 +1,7 @@
+generate p p > t t~     
+add process p p > t t~ j    
+output ttbar    
+launch ttbar       
+shower=Pythia8
+madspin=ON
+set nevents 10000

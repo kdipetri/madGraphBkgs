@@ -1,0 +1,9 @@
+generate p p > z       
+add process p p > z j 
+output zjets    
+launch zjets       
+shower=Pythia8
+madspin=ON
+decay z > l+ l- 
+set nevents 10000
+

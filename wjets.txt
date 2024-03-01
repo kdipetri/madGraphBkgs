@@ -1,0 +1,11 @@
+generate p p > w+       
+add process p p > w- 
+add process p p > w+ j 
+add process p p > w- j 
+output wjets    
+launch wjets       
+shower=Pythia8
+madspin=ON
+decay w- > l- vl~
+decay w+ > l+ vl
+set nevents 10000

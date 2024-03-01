@@ -1,0 +1,8 @@
+generate p p > j      
+add process p p > j j    
+add process p p > j j j    
+output qcd    
+launch qcd       
+shower=Pythia8
+madspin=ON
+set nevents 10000
