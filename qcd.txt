@@ -5,4 +5,4 @@ output qcd
 launch qcd       
 shower=Pythia8
 madspin=ON
-set nevents 10000
+set nevents 100000

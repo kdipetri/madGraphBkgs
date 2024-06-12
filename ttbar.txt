@@ -1,7 +1,8 @@
-generate p p > t t~     
-add process p p > t t~ j    
+generate p p > t t~      
+add process p p > t t~ j     
 output ttbar    
 launch ttbar       
 shower=Pythia8
 madspin=ON
+set spinmode none
 set nevents 10000

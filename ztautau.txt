@@ -1,0 +1,8 @@
+generate p p > z
+add process p p > z j 
+output ztautau    
+launch ztautau
+shower=Pythia8
+madspin=ON
+decay z > ta+ ta-
+set nevents 10000

@@ -1,0 +1,9 @@
+generate p p > t t~, (t > W+ b, W+ > l+ vl), t~ > W- b~      
+add process p p > t t~, t > W+ b, (t~ > W- b~ , W- > l- vl~)     
+add process p p > t t~ j, (t > W+ b, W+ > l+ vl), t~ > W- b~     
+add process p p > t t~ j, t > W+ b, (t~ > W- b~ , W- > l- vl~)     
+output ttbar1L    
+launch ttbar1L     
+shower=Pythia8
+set spinmode none
+set nevents 10000
